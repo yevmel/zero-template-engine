@@ -73,9 +73,9 @@ A functionality of Intellij IDEA called [language injection](https://www.jetbrai
 
 ### Hot reload
 
-Hot reload is a technique where changes in code are immediately applied to the running application. The benefits are:
+Hot reload is a technique where code changes are applied immediately to a running application, without requiring a full restart. This has two major benefits:
 
-* the current state of the application is preserved
-* quick development cycles, because the application does not need to be restarted
+* The current state of the application is preserved
+* Development cycles are faster, since the application does not need to be restarted
 
-while Intellij does not really provide a hot reload functionality, it supports hotswap while running in debug mode. Just execute [Reload Changed Classes](https://www.jetbrains.com/help/idea/altering-the-program-s-execution-flow.html#reload_classes) after changing your template and trigger re-rendering of the affected part of your application (f.e. by reloading your page in the browser)
+While IntelliJ does not provide true hot reload functionality, it does support hotswap when running in debug mode. You can execute [Reload Changed Classes](https://www.jetbrains.com/help/idea/altering-the-program-s-execution-flow.html#reload_classes) after modifying your template and then trigger a re-render of the affected part of your application (for example, by refreshing the page in your browser).
